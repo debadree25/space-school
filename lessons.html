@@ -25,7 +25,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div id="navbarContent" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav order-1 mr-auto">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
@@ -33,6 +33,14 @@
                 <a class="nav-link" href="lessons.html">Lessons</a>
               </li>
             </ul>
+            <ul class="navbar-nav order-2">
+              <li class="nav-item">
+                  <a class="nav-link" href="sign-in.html">Sign In</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Sign Up</a>
+              </li>
+          </ul>
           </div>
         </nav>
       </div>
@@ -105,13 +113,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-  <script>
-    $(document).ready(function() {
-       $('.card').hover(function(){
-          $(this).toggleClass('shadow-lg');
-       })
-    });
- </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
